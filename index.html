@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tes1</title>
+        <link rel="stylesheet" href="styleTes1.css">
+        <script src="script.js"></script>
+    </head> 
+    <body>
+        <div class="baris1">
+            <div id="compProfile" class="kotak"><img src="img/comp.jpg" height="50%" width="50%"><br>
+                <b style="color: white; text-align: center;">Computer</b></div>
+            <div id="compScore" class="kotak"><p id="compPoint">0</p></div>
+            <div id="vs" class="kotak"><h1>VS</h1></div>
+            <div id="playerScore" class="kotak"><p id="playerPoint">0</p></div>
+            <div id="playerProfile" class="kotak"><img src="img/players.jpg" height="50%" width="50%"><br>
+                <b style="color: white; text-align: center;">Player</b></div>
+        </div>
+        <br>
+
+        <div class="bannerComp"><b>Computer</b></div>
+
+        <div class="hand">
+            <div id="batuComp" class="border"><img src="img/batu.png" height="30%" width="30%"></div>
+            <div id="guntingComp" class="border"><img src="img/gunting.png" height="30%" width="30%"></div>
+            <div id="kertasComp" class="border"><img src="img/kertas.png" height="30%" width="30%"></div>
+        </div>
+
+        <div class="bannerComp"><b>Computer</b></div>
+        <br>
+
+        <div class="hand">
+            <div id="pilihanComp" class="border"><img id="computer" src=""></div>
+            <div id="notification" class="border"><b style="text-align: center; color: darkred; font-size: 35px;">VS</b></div>
+            <div id="pilihanPlayer" class="border"><img id="player" src=""></div>
+        </div>
+        <br>
+
+        <div class="bannerPlayer"><b>Player</b></div>
+
+        <div class="hand">
+            <div id="kertasPlayer" class="border" onclick="kertasClick()"><img src="img/kertas.png" height="30%" width="30%"></div>
+            <div id="guntingPlayer" class="border" onclick="guntingClick()"><img src="img/gunting.png" height="30%" width="30%"></div>
+            <div id="batuPlayer" class="border" onclick="batuClick()"><img src="img/batu.png" height="30%" width="30%"></div>
+        </div>
+
+        <div class="bannerPlayer"><b>Player</b></div>
+    </body>
+</html>

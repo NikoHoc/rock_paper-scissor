@@ -1,0 +1,70 @@
+.baris1 {
+    display: flex;
+    flex-direction: flex;
+}
+
+.kotak {
+    width: 15%;
+    height: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+
+#compProfile {
+    background-color: red;
+}
+
+#playerProfile {
+    background-color: green;
+}
+
+#vs {
+    text-align: center;
+    color: darkred;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 15%;
+    height: 20%;
+   
+}
+
+#compScore {
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 15%;
+    height: 20%;
+}
+
+#playerScore {
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 15%;
+    height: 20%;
+}
+
+.bannerComp {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.bannerPlayer {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.hand {
+    display: flex;
+    flex-direction: flex;
+}
+
+.border {
+    text-align: center;
+    width: 40%;
+    height: 20%;
+}
+
